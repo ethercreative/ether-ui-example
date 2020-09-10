@@ -3685,10 +3685,10 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-ether-ui@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/ether-ui/-/ether-ui-1.7.1.tgz#5eba516dd5aa7f35b4e1300590201bf64e12e636"
-  integrity sha512-NWiuL/On/MScIRGzWSma7N4ppE5eGjFIjHArsTCqqne8t1aYnYwM4eHWZRYbE2fOJoDFlrJvxKwDbtpJxRaHrQ==
+ether-ui@^1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/ether-ui/-/ether-ui-1.7.2.tgz#f0ae2f420ef464516f7ad66e9cfdd16292bd8561"
+  integrity sha512-0YiMU7KRfVVetup/6gGwMpn1EGm/3yRhhvO54dgqdsfjPyfmDDmqG+TBNbArAwcESwJCPKT9xmyPklsXMvurdw==
 
 event-target-shim@^5.0.0:
   version "5.0.1"
