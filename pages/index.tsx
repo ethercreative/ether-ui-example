@@ -111,19 +111,35 @@ const Home: React.FC = () => (
       <Space paddingY='10'>
         <Container>
           <Grid columns='3'>
-            <Column
-              span={{
-                default: '3',
-                md: '1',
-              }}
-            >
-              <List gap='3'>
-                <ListItem>Home</ListItem>
-                <ListItem>About</ListItem>
-                <ListItem>News</ListItem>
-                <ListItem>Contact</ListItem>
-              </List>
-            </Column>
+            {Array(3)
+              .fill('')
+              .map((_, i) => (
+                <Column
+                  span={{
+                    default: '3',
+                    md: '1',
+                  }}
+                  key={i}
+                >
+                  <List gap='3'>
+                    <ListItem>
+                      <Link href='/'>Home</Link>
+                    </ListItem>
+
+                    <ListItem>
+                      <Link href='/'>About</Link>
+                    </ListItem>
+
+                    <ListItem>
+                      <Link href='/'>News</Link>
+                    </ListItem>
+
+                    <ListItem>
+                      <Link href='/'>Contact</Link>
+                    </ListItem>
+                  </List>
+                </Column>
+              ))}
           </Grid>
         </Container>
       </Space>
