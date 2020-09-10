@@ -57,7 +57,7 @@ const Home: React.FC = () => (
           }}
         >
           <Heading
-            level='1'
+            level='2'
             size={{
               default: '2xl',
               sm: '3xl',
@@ -78,7 +78,7 @@ const Home: React.FC = () => (
         >
           <Flex direction='col' spaceY='5'>
             <Heading
-              level='1'
+              level='3'
               size={{
                 default: 'xl',
                 sm: '2xl',
