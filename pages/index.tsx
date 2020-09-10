@@ -45,6 +45,10 @@ const Home: React.FC = () => (
     <Container>
       <Grid
         columns='12'
+        gapX={{
+          default: '0',
+          md: '10',
+        }}
         gapY={{
           default: '10',
           md: '0',
@@ -56,18 +60,46 @@ const Home: React.FC = () => (
             md: '9',
           }}
         >
-          <Heading
-            level='2'
-            size={{
-              default: '2xl',
-              sm: '3xl',
-              md: '4xl',
-            }}
-            weight='bold'
-            leading='tight'
-          >
-            Content Heading
-          </Heading>
+          <Flex direction='col' spaceY='5'>
+            <Heading
+              level='2'
+              size={{
+                default: '2xl',
+                sm: '3xl',
+                md: '4xl',
+              }}
+              weight='bold'
+              leading='tight'
+            >
+              Content Heading
+            </Heading>
+
+            <Text
+              size={{
+                default: 'sm',
+                md: 'base',
+              }}
+              leading='relaxed'
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              sapiente rerum magnam corporis molestiae consectetur ea vel quae
+              porro neque. Nostrum illum ab libero, suscipit quod unde impedit
+              explicabo dolore.
+            </Text>
+
+            <Text
+              size={{
+                default: 'sm',
+                md: 'base',
+              }}
+              leading='relaxed'
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              sapiente rerum magnam corporis molestiae consectetur ea vel quae
+              porro neque. Nostrum illum ab libero, suscipit quod unde impedit
+              explicabo dolore.
+            </Text>
+          </Flex>
         </Column>
 
         <Column
