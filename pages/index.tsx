@@ -13,7 +13,12 @@ import {
 import Link from 'next/link';
 
 const Home: React.FC = () => (
-  <Grid gap='24'>
+  <Grid
+    gap={{
+      default: '12',
+      md: '24',
+    }}
+  >
     <header className='bg-gray-200'>
       <Container>
         <Space paddingY='5'>
@@ -57,7 +62,8 @@ const Home: React.FC = () => (
         <Column
           span={{
             default: '12',
-            md: '9',
+            md: '8',
+            lg: '9',
           }}
         >
           <Flex direction='col' spaceY='5'>
@@ -105,7 +111,8 @@ const Home: React.FC = () => (
         <Column
           span={{
             default: '12',
-            md: '3',
+            md: '4',
+            lg: '3',
           }}
         >
           <Flex direction='col' spaceY='5'>
