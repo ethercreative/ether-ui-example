@@ -1,15 +1,17 @@
 import * as React from 'react';
+
 import {
-  Grid,
-  Container,
-  Space,
-  Flex,
-  Heading,
   Column,
+  Container,
+  Flex,
+  Grid,
+  Heading,
   List,
   ListItem,
+  Space,
   Text,
 } from 'ether-ui';
+
 import Link from 'next/link';
 
 const Home: React.FC = () => (
