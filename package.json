@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "dayjs": "^1.8.36",
     "ether-ui": "^1.10.0",
     "graphql": "^15.3.0",
     "graphql-request": "^3.1.0",
