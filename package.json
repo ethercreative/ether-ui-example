@@ -8,13 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "ether-ui": "^1.10.0",
+    "ether-ui": "^1.10.1",
     "next": "^9.5.3",
     "preact": "^10.4.8",
     "preact-render-to-string": "^5.1.10",
     "react": "github:preact-compat/react#1.0.0",
     "react-dom": "github:preact-compat/react-dom#1.0.0",
-    "react-spring": "^8.0.27",
     "react-ssr-prepass": "^1.2.1"
   },
   "devDependencies": {
