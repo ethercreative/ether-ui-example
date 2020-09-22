@@ -7,12 +7,11 @@ import {
   Grid,
   Heading,
   List,
-  ListItem,
   Space,
   Text,
 } from 'ether-ui';
 
-import Link from 'next/link';
+import { Link } from '../components';
 
 const Home: React.FC = () => (
   <Grid
@@ -163,21 +162,21 @@ const Home: React.FC = () => (
                   key={i}
                 >
                   <List gap='3'>
-                    <ListItem>
+                    <li>
                       <Link href='/'>Home</Link>
-                    </ListItem>
+                    </li>
 
-                    <ListItem>
+                    <li>
                       <Link href='/'>About</Link>
-                    </ListItem>
+                    </li>
 
-                    <ListItem>
+                    <li>
                       <Link href='/'>News</Link>
-                    </ListItem>
+                    </li>
 
-                    <ListItem>
+                    <li>
                       <Link href='/'>Contact</Link>
-                    </ListItem>
+                    </li>
                   </List>
                 </Column>
               ))}
