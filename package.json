@@ -8,10 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "dayjs": "^1.8.36",
     "ether-ui": "^1.10.0",
-    "graphql": "^15.3.0",
-    "graphql-request": "^3.1.0",
     "next": "^9.5.3",
     "preact": "^10.4.8",
     "preact-render-to-string": "^5.1.10",
@@ -31,12 +28,6 @@
     "@typescript-eslint/parser": "^4.2.0",
     "eslint": "^7.9.0",
     "eslint-config-universe": "^4.0.0",
-    "husky": "^4.3.0",
-    "imagemin": "^7.0.1",
-    "imagemin-jpegoptim": "^7.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
-    "lint-staged": "^10.4.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.2",
     "react-refresh": "^0.8.3",
@@ -45,16 +36,5 @@
   },
   "eslintConfig": {
     "extends": "universe/web"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{jpeg,jpg,png,svg}": [
-      "node ./asset-optim.js",
-      "git add"
-    ]
   }
 }
