@@ -3230,10 +3230,10 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-ether-ui@^1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/ether-ui/-/ether-ui-1.10.1.tgz#54c94638ea036fe6e642221efa39a51233ba40dd"
-  integrity sha512-+aJog12OdoevvJUc6Tm4GmCDzDtjBSCyKJc5oTWNm/0cPoBJ3svgItNPpxzrbyvAPkYLxiwd6r1tXi+IgpC2fQ==
+ether-ui@^1.10.4:
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/ether-ui/-/ether-ui-1.10.4.tgz#fb3268f7db23b2e271f0ad8da0b3e33eb2eaef8b"
+  integrity sha512-JhPzOCgp0zsKX88JrOmefJMnH3h8uubYPDyLcghWzcF9zt066N0ZR8cQBBn0grCBGcHkocC1wrMQB3pRhNscmg==
 
 event-target-shim@^5.0.0:
   version "5.0.1"
